@@ -2,14 +2,16 @@
 import 'dart:convert';
 
 class Expert {
+  final String id;
   final String name;
   final String image;
-  final bool isFav;
+  bool isFav;
   final String rating;
 
   final String department;
 
-  Expert(this.name, this.image, this.isFav, this.rating, this.department);
+  Expert(
+      this.name, this.image, this.isFav, this.rating, this.department, this.id);
 
   Map<String, dynamic> toMap() {
     return <String, dynamic>{
@@ -28,6 +30,7 @@ class Expert {
       map['isFav'] as bool,
       map['rating'] as String,
       map['department'] as String,
+      map['id'] as String,
     );
   }
 

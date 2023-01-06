@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:oranos/src/bloc/chat/chat_cubit.dart';
+import 'package:oranos/src/bloc/home/home_cubit.dart';
+import 'package:oranos/src/data/repository/expert_repository.dart';
 import 'package:oranos/src/routes.dart';
 import 'package:oranos/src/screens/chat/chat_screen.dart';
 import 'package:oranos/src/screens/get_start/get_start_screen.dart';
@@ -24,7 +26,10 @@ class MyApp extends StatelessWidget {
         providers: [
           BlocProvider(
             create: (context) => ChatCubit(ChatRepository()),
-          )
+          ),
+          BlocProvider(
+            create: (context) => HomeCubit(ExpertRepository()),
+          ),
         ],
         child: MaterialApp(
           // Providing a restorationScopeId allows the Navigator built by the

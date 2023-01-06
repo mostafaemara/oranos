@@ -4,7 +4,9 @@ import 'package:oranos/src/data/model/expert.dart';
 class HomeState {
   final List<Expert> experts;
   final bool isLoading;
-
+  HomeState.init()
+      : isLoading = true,
+        experts = [];
   HomeState(this.experts, this.isLoading);
 
   HomeState copyWith({

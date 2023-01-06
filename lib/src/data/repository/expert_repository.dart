@@ -2,33 +2,37 @@ import 'package:oranos/src/data/model/expert.dart';
 
 const _dummyData = [
   {
+    "id": "1",
     'name': "Kareem Adel",
     'image':
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Ddoctor&psig=AOvVaw0Ba2Ribtkig9dscOm1ZoUJ&ust=1673092077732000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDOienvsvwCFQAAAAAdAAAAABAE",
+        "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
     'isFav': false,
     'rating': "4.7",
     'department': "Supply Chain",
   },
   {
+    "id": "2",
     'name': "Kareem Adel",
     'image':
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Ddoctor&psig=AOvVaw0Ba2Ribtkig9dscOm1ZoUJ&ust=1673092077732000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDOienvsvwCFQAAAAAdAAAAABAE",
+        "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
     'isFav': false,
     'rating': "4.7",
     'department': "Supply Chain",
   },
   {
+    "id": "3",
     'name': "Kareem Adel",
     'image':
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Ddoctor&psig=AOvVaw0Ba2Ribtkig9dscOm1ZoUJ&ust=1673092077732000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDOienvsvwCFQAAAAAdAAAAABAE",
+        "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
     'isFav': false,
     'rating': "4.7",
     'department': "Supply Chain",
   },
   {
+    "id": "4",
     'name': "Kareem Adel",
     'image':
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Ddoctor&psig=AOvVaw0Ba2Ribtkig9dscOm1ZoUJ&ust=1673092077732000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDOienvsvwCFQAAAAAdAAAAABAE",
+        "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
     'isFav': false,
     'rating': "4.7",
     'department': "Supply Chain",
