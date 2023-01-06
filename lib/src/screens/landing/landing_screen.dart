@@ -71,7 +71,12 @@ class LandingScreen extends StatelessWidget {
                     ]),
               )),
           LanguageButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushNamedAndRemoveUntil(
+                AppRoutes.home,
+                (route) => false,
+              );
+            },
           ),
           const SizedBox(
             height: 22,

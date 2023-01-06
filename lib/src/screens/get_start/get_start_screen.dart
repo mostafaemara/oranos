@@ -32,7 +32,12 @@ class GetStartScreen extends StatelessWidget {
                   child: const Text("Next"))),
           const Spacer(),
           LanguageButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushNamedAndRemoveUntil(
+                AppRoutes.home,
+                (route) => false,
+              );
+            },
           ),
           const SizedBox(
             height: 25,
