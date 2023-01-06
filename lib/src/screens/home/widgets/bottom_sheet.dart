@@ -16,7 +16,7 @@ class _HomeBottomSheetState extends State<HomeBottomSheet> {
       width: size.width,
       decoration: const BoxDecoration(
           borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(15), topRight: Radius.circular(50))),
+              topLeft: Radius.circular(15), topRight: Radius.circular(15))),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 30),
         child: Column(

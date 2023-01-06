@@ -81,8 +81,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   AnimatedPositioned(
                       duration: const Duration(milliseconds: 350),
                       top: !isSwipeUp
-                          ? 350
-                          : MediaQuery.of(context).size.height * 0.8,
+                          ? MediaQuery.of(context).size.height * 0.8
+                          : 350,
                       child: GestureDetector(
                           onPanEnd: (details) {
                             if (details.velocity.pixelsPerSecond.dy > -100) {
