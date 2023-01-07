@@ -63,7 +63,7 @@ class MyApp extends StatelessWidget {
           // preferred ThemeMode (light, dark, or system default) from the
           // SettingsController to display the correct theme.
           theme: AppTheme.lightTheme,
-          darkTheme: ThemeData.dark(),
+
           routes: {
             AppRoutes.landing: (context) => const LandingScreen(),
             AppRoutes.getStart: (context) => const GetStartScreen(),
